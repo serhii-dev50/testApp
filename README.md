@@ -16,9 +16,6 @@ git clone https://github.com/serhii-dev50/testApp.git
 
 2. Open the project in Xcode:
 
-cd testApp
-open MyFinance Tracker.xcodeproj
-
 3.Ensure the correct target and device (Simulator or connected device) are selected.
 
 ▶️ Running the App
