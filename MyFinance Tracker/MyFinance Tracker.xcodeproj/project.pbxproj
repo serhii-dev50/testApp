@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E34032B92CF4CB2B00CB2586 /* MyFinance_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34032B82CF4CB2B00CB2586 /* MyFinance_TrackerApp.swift */; };
+		E34032BB2CF4CB2B00CB2586 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34032BA2CF4CB2B00CB2586 /* ContentView.swift */; };
+		E34032BD2CF4CB2D00CB2586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34032BC2CF4CB2D00CB2586 /* Assets.xcassets */; };
+		E34032C02CF4CB2D00CB2586 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34032BF2CF4CB2D00CB2586 /* Preview Assets.xcassets */; };
+		E34032C72CF4CB7000CB2586 /* MainList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34032C62CF4CB7000CB2586 /* MainList.swift */; };
+		E34032CC2CF4F47B00CB2586 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34032CB2CF4F47B00CB2586 /* Persistence.swift */; };
+		E34032CE2CF5116100CB2586 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34032CD2CF5116100CB2586 /* StatisticsView.swift */; };
+		E34032D12CF53F4E00CB2586 /* DataNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E34032CF2CF53F4E00CB2586 /* DataNotes.xcdatamodeld */; };
+		E3E7A79C2CF5DE7C002FF782 /* AddExpenseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E7A79B2CF5DE7C002FF782 /* AddExpenseSheet.swift */; };
+		E3E7A7A02CF5E03C002FF782 /* ExpenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E7A79F2CF5E03C002FF782 /* ExpenseManager.swift */; };
+		E3E7A7A22CF5E2E8002FF782 /* AddIncomeSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E7A7A12CF5E2E8002FF782 /* AddIncomeSheet.swift */; };
+		E3E7A7A42CF5E35D002FF782 /* IncomeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E7A7A32CF5E35D002FF782 /* IncomeActions.swift */; };
+		E3E7A7A62CF5E5C2002FF782 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E7A7A52CF5E5C2002FF782 /* CustomAlertView.swift */; };
+		E3E7A7A82CF5E6C5002FF782 /* TransactionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E7A7A72CF5E6C5002FF782 /* TransactionHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E34032B52CF4CB2B00CB2586 /* MyFinance Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyFinance Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34032B82CF4CB2B00CB2586 /* MyFinance_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFinance_TrackerApp.swift; sourceTree = "<group>"; };
+		E34032BA2CF4CB2B00CB2586 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E34032BC2CF4CB2D00CB2586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E34032BF2CF4CB2D00CB2586 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E34032C62CF4CB7000CB2586 /* MainList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainList.swift; sourceTree = "<group>"; };
+		E34032CB2CF4F47B00CB2586 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E34032CD2CF5116100CB2586 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		E34032D02CF53F4E00CB2586 /* DataNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataNotes.xcdatamodel; sourceTree = "<group>"; };
+		E3E7A79B2CF5DE7C002FF782 /* AddExpenseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseSheet.swift; sourceTree = "<group>"; };
+		E3E7A79F2CF5E03C002FF782 /* ExpenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseManager.swift; sourceTree = "<group>"; };
+		E3E7A7A12CF5E2E8002FF782 /* AddIncomeSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIncomeSheet.swift; sourceTree = "<group>"; };
+		E3E7A7A32CF5E35D002FF782 /* IncomeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeActions.swift; sourceTree = "<group>"; };
+		E3E7A7A52CF5E5C2002FF782 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		E3E7A7A72CF5E6C5002FF782 /* TransactionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E34032B22CF4CB2B00CB2586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E34032AC2CF4CB2B00CB2586 = {
+			isa = PBXGroup;
+			children = (
+				E34032B72CF4CB2B00CB2586 /* MyFinance Tracker */,
+				E34032B62CF4CB2B00CB2586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E34032B62CF4CB2B00CB2586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34032B52CF4CB2B00CB2586 /* MyFinance Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E34032B72CF4CB2B00CB2586 /* MyFinance Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				E34032B82CF4CB2B00CB2586 /* MyFinance_TrackerApp.swift */,
+				E34032BA2CF4CB2B00CB2586 /* ContentView.swift */,
+				E3E7A7A52CF5E5C2002FF782 /* CustomAlertView.swift */,
+				E34032CD2CF5116100CB2586 /* StatisticsView.swift */,
+				E34032C62CF4CB7000CB2586 /* MainList.swift */,
+				E3E7A79B2CF5DE7C002FF782 /* AddExpenseSheet.swift */,
+				E3E7A7A12CF5E2E8002FF782 /* AddIncomeSheet.swift */,
+				E3E7A7A92CF5ED04002FF782 /* DataManager */,
+				E34032CF2CF53F4E00CB2586 /* DataNotes.xcdatamodeld */,
+				E34032BC2CF4CB2D00CB2586 /* Assets.xcassets */,
+				E34032BE2CF4CB2D00CB2586 /* Preview Content */,
+			);
+			path = "MyFinance Tracker";
+			sourceTree = "<group>";
+		};
+		E34032BE2CF4CB2D00CB2586 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E34032BF2CF4CB2D00CB2586 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3E7A7A92CF5ED04002FF782 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				E3E7A7A72CF5E6C5002FF782 /* TransactionHelper.swift */,
+				E34032CB2CF4F47B00CB2586 /* Persistence.swift */,
+				E3E7A7A32CF5E35D002FF782 /* IncomeActions.swift */,
+				E3E7A79F2CF5E03C002FF782 /* ExpenseManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E34032B42CF4CB2B00CB2586 /* MyFinance Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34032C32CF4CB2D00CB2586 /* Build configuration list for PBXNativeTarget "MyFinance Tracker" */;
+			buildPhases = (
+				E34032B12CF4CB2B00CB2586 /* Sources */,
+				E34032B22CF4CB2B00CB2586 /* Frameworks */,
+				E34032B32CF4CB2B00CB2586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyFinance Tracker";
+			productName = "MyFinance Tracker";
+			productReference = E34032B52CF4CB2B00CB2586 /* MyFinance Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E34032AD2CF4CB2B00CB2586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E34032B42CF4CB2B00CB2586 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E34032B02CF4CB2B00CB2586 /* Build configuration list for PBXProject "MyFinance Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E34032AC2CF4CB2B00CB2586;
+			productRefGroup = E34032B62CF4CB2B00CB2586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E34032B42CF4CB2B00CB2586 /* MyFinance Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E34032B32CF4CB2B00CB2586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34032C02CF4CB2D00CB2586 /* Preview Assets.xcassets in Resources */,
+				E34032BD2CF4CB2D00CB2586 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E34032B12CF4CB2B00CB2586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E7A7A82CF5E6C5002FF782 /* TransactionHelper.swift in Sources */,
+				E34032BB2CF4CB2B00CB2586 /* ContentView.swift in Sources */,
+				E3E7A7A22CF5E2E8002FF782 /* AddIncomeSheet.swift in Sources */,
+				E3E7A7A62CF5E5C2002FF782 /* CustomAlertView.swift in Sources */,
+				E34032CE2CF5116100CB2586 /* StatisticsView.swift in Sources */,
+				E3E7A7A02CF5E03C002FF782 /* ExpenseManager.swift in Sources */,
+				E34032C72CF4CB7000CB2586 /* MainList.swift in Sources */,
+				E34032D12CF53F4E00CB2586 /* DataNotes.xcdatamodeld in Sources */,
+				E3E7A7A42CF5E35D002FF782 /* IncomeActions.swift in Sources */,
+				E3E7A79C2CF5DE7C002FF782 /* AddExpenseSheet.swift in Sources */,
+				E34032B92CF4CB2B00CB2586 /* MyFinance_TrackerApp.swift in Sources */,
+				E34032CC2CF4F47B00CB2586 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E34032C12CF4CB2D00CB2586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E34032C22CF4CB2D00CB2586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E34032C42CF4CB2D00CB2586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFinance Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Finance;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "any.MyFinance-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E34032C52CF4CB2D00CB2586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFinance Tracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Finance;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "any.MyFinance-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E34032B02CF4CB2B00CB2586 /* Build configuration list for PBXProject "MyFinance Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34032C12CF4CB2D00CB2586 /* Debug */,
+				E34032C22CF4CB2D00CB2586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34032C32CF4CB2D00CB2586 /* Build configuration list for PBXNativeTarget "MyFinance Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34032C42CF4CB2D00CB2586 /* Debug */,
+				E34032C52CF4CB2D00CB2586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E34032CF2CF53F4E00CB2586 /* DataNotes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E34032D02CF53F4E00CB2586 /* DataNotes.xcdatamodel */,
+			);
+			currentVersion = E34032D02CF53F4E00CB2586 /* DataNotes.xcdatamodel */;
+			name = DataNotes.xcdatamodeld;
+			path = "/Users/anymacstore/Desktop/MyFinance Tracker/MyFinance Tracker/DataNotes.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E34032AD2CF4CB2B00CB2586 /* Project object */;
+}
